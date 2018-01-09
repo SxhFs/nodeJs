@@ -15,3 +15,12 @@ console.log(buf3);
 //2.再转成二进制
 //从后往前填
 //再转16进制
+
+
+//parseInt把任意的进制转成10进制
+console.log(parseInt('255',10));
+console.log(parseInt('11111111',2));
+console.log(parseInt('0xff',16));
+//10进制转成任意进制
+console.log((255).toString(16));
+console.log((255).toString(2));
